@@ -1,0 +1,26 @@
+.jumbotron 
+{
+    background-image: url(hotel.jpg);
+    	}
+.small 
+{
+    font-size: 100%;
+
+    	}
+.footer {
+	background-color: #030000;
+}
+a {
+	color: #f8f9fa;
+}
+@media (max-width: 568px) and (min-width: 320px)
+{
+	.small {
+		font-size: 117%;
+	}
+}
+@media (max-width: 767px) {
+	table {
+		overflow-x: scroll;
+	}
+}
